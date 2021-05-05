@@ -1,0 +1,391 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-26T11:29:03.451Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.guru99StepDef.BeforeScenario1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.guru99StepDef.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Check Sign-in is succesful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-sign-in-functionality;check-sign-in-is-succesful-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34410000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.BeforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user visits guru99 newtours page",
+            "match": {
+              "location": "StepDefinations.guru99StepDef.user_visits_guru99_newtours_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1099000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.BeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "enters abc and abc to signin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 7
+                },
+                {
+                  "val": "abc",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinations.guru99StepDef.enters_abc_and_abc_to_signin(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1936000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.BeforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "clicks on submit button",
+            "match": {
+              "location": "StepDefinations.guru99StepDef.clicks_on_submit_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.BeforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user is succesfully signed in",
+            "match": {
+              "location": "StepDefinations.guru99StepDef.user_is_succesfully_signed_in()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignInFunctionality"
+          },
+          {
+            "name": "@SignInCheck"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-26T11:29:41.163Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.guru99StepDef.BeforeScenario1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.guru99StepDef.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Check Sign-in is succesful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-sign-in-functionality;check-sign-in-is-succesful-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1272000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.guru99StepDef.AfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26260000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.BeforeStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "user visits guru99 newtours page",
+            "match": {
+              "location": "StepDefinations.guru99StepDef.user_visits_guru99_newtours_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1056000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.BeforeStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "enters abc and abc to signin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 7
+                },
+                {
+                  "val": "abc",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinations.guru99StepDef.enters_abc_and_abc_to_signin(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2348000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.BeforeStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "clicks on submit button",
+            "match": {
+              "location": "StepDefinations.guru99StepDef.clicks_on_submit_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.BeforeStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "user is succesfully signed in",
+            "match": {
+              "location": "StepDefinations.guru99StepDef.user_is_succesfully_signed_in()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinations.guru99StepDef.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignInFunctionality"
+          },
+          {
+            "name": "@SignInCheck2"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test sign-in functionality",
+    "description": "",
+    "id": "feature-to-test-sign-in-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/guru99.feature",
+    "tags": [
+      {
+        "name": "@SignInFunctionality",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
